@@ -1,3 +1,86 @@
-.first_section {
-    background-color: rgb(127, 136, 255);
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/Burger.jpeg');
+    filter: blur(0, 5);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px 0px 0px 90px;
+    font-size: 40px;
+}
+
+.burger {
+    color: yellow;
+}
+
+.king {
+    color: green;
+}
+
+.right_page {
+    display: flex;
+    justify-content: flex-end;
+    margin: -63px 90px 0px 0px;
+    color: white;
+    font-size: small;
+}
+
+.menu {
+    padding: 10px 10px 10px 10px;
+}
+
+.center-page {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+.color1 {
+    font-size: 50px;
+    margin: 0px 10px 0px 10px;
+    color: white;
+}
+
+.color {
+    font-size: 50px;
+    margin: 0px 10px 0px 10px;
+    color: yellow;
+}
+
+.advertisment {
+    text-align: justify;
+    padding: 20px 350px 0px 350px;
+    font-size: 15px;
+    color: white;
+}
+
+.button {
+    margin-top: 50px;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: orange;
+    color: #ffffff;
+    border: none;
+}
+
+.button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: green;
+    color: #ffffff;
+    border: none;
 }
